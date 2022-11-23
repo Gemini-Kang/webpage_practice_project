@@ -18,7 +18,7 @@
       <li><a href="#"></a>About</li>
       <li class="ctn"><a href="#"></a>Contact</li> 
     </ul>
-    <img src="./images/menu-btn.png" alt="">
+    <img class='menu-btn' src="./images/menu-btn.png" alt="" >
   </nav>
   <header>
     <div class="header-content">
@@ -28,6 +28,14 @@
       <a href="#" class="ctn">Learn More</a>
     </div>
   </header>
+  <script>
+    const menuBtn = document.querySelector('.menu-btn')
+    const navlinks = document.querySelector('.nav-links')
+
+    menuBtn.addEventListener('click',()=> {
+      navlinks.classList.toggle('mobile-menu')
+    })
+  </script>
 </body>
 </html>
 
