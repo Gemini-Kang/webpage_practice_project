@@ -1,4 +1,4 @@
-# webpage_practice_project
+# My Web Page Practice Project Plan
 My HTML, CSS, JavaScript practice
 
 | Project / Web page | ScreenShot | deployed url | Is Responsive |
