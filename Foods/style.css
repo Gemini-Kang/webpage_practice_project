@@ -361,12 +361,12 @@ html {
     background-color: #222;
     display: flex;
     justify-content: space-around;
-    align-items: flex-start;
     padding: 3rem 0;
     position: relative;
+    align-items: flex-start;
 }
 
-.section-4 {
+.section-4-text {
     text-transform: uppercase;
 }
 
@@ -436,7 +436,7 @@ html {
 
     .section-2 {
         height: auto;
-        padding: 10rem 0 12rem 0;
+       
     }
 
     .cards-container {
