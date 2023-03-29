@@ -42,6 +42,9 @@
                 period = "PM"
             }
 
+            //Set the 12-hour clock format
+            hours = hours > 12 ? hours % 12 : hours;
+
             document.querySelector(".hours").innerHTML = hours;
             document.querySelector(".minutes").innerHTML = minutes;
             document.querySelector(".seconds").innerHTML = seconds;
