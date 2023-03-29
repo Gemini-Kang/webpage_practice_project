@@ -11,12 +11,12 @@
 <body>
     <div class="digital-clock">
         <div class="time">
-            <span class="hours">08</span>
+            <span class="hours">00</span>
             <span class="dots">:</span>
-            <span class="minutes">30</span>
+            <span class="minutes">00</span>
             <div class="right-side">
-                <span class="period">PM</span>
-                <span class="seconds">20</span>
+                <span class="period">AM/PM</span>
+                <span class="seconds">00</span>
             </div>
         </div>
         <div class="calendar">
@@ -44,6 +44,19 @@
 
             //Set the 12-hour clock format
             hours = hours > 12 ? hours % 12 : hours;
+
+            //Add the 0 for the values lower than 10
+            if(hours < 10) {
+                hours = "0" + hours;
+            }
+
+            if(minutes < 10) {
+                minutes = "0" + minutes;
+            }
+
+            if(seconds < 10) {
+                seconds = "0" + seconds;
+            }
 
             document.querySelector(".hours").innerHTML = hours;
             document.querySelector(".minutes").innerHTML = minutes;
