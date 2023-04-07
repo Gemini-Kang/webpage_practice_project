@@ -105,14 +105,14 @@
         //document.querySelector(".year").innerHTML = year;
 
         //Javascript for dot menu toggle
-        const dotmenuBtn = doucument.querySelector(".dot-menu-btn");
-        const dotMenu = documet.querySelector(".dot-menu");
+        const dotmenuBtn = document.querySelector(".dot-menu-btn");
+        const dotMenu = document.querySelector(".dot-menu");
 
         dotmenuBtn.addEventListener("click", () => {
             dotMenu.classList.toggle("active");
         });
 
-        dotmenuBtn.addEventListener("click", (e) => {
+        document.addEventListener("click", (e) => {
             if(e.target.id !== "active-menu"){
                 dotMenu.classList.remove("active");
             }
