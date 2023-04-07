@@ -35,6 +35,21 @@
     </div>
 
     <script>
+        //Javascript for switch clock format
+        const formatSwitchBtn = document.querySelector(".format-switch-btn");
+       
+        formatSwitchBtn.addEventListener("click", () => {
+            formatSwitchBtn.classList.toggle("active");
+
+            var formatValue = formatSwitchBtn.getAttribute("data-format");
+
+            if(formatValue === "12"){
+                formatSwitchBtn.setAttribute("data-format","24");
+            }
+            else{
+                formatSwitchBtn.setAttribute("data-format", "12");
+            }
+        });
         //Get current time in javascript
         function clock(){
             var today = new Date();
@@ -50,7 +65,11 @@
             }
 
             //Set the 12-hour clock format
-            hours = hours > 12 ? hours % 12 : hours;
+            var formatValue = formatSwitchBtn.getAttribute("data-format");
+
+            if(formatValue === "12"){
+                hours = hours > 12 ? hours % 12 : hours;
+            }
 
             //Add the 0 for the values lower than 10
             if(hours < 10) {
