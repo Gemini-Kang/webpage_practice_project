@@ -10,11 +10,11 @@
 </head>
 <body>
     <div class="digital-clock">
-        <i class="uil uil-ellipsis-v dot-menu-btn"></i>
-        <ul class="dot-menu">
-            <li class="menu-item">
-                <span class="clock-format-text">24-hour format</span>
-                <div class="format-switch-btn" data-format="12"></div>
+        <i class="uil uil-ellipsis-v dot-menu-btn" id="active-menu"></i>
+        <ul class="dot-menu" id="active-menu">
+            <li class="menu-item" id="active-menu">
+                <span class="clock-format-text" id="active-menu">24-hour format</span>
+                <div class="format-switch-btn" id="active-menu" data-format="12"></div>
             </li>
         </ul>
         <div class="time">
@@ -30,7 +30,7 @@
             <span class="month-name">Month</span>,
             <span class="day-name">Day</span>
             <span class="day-number">00</span>
-            <span class="year">0000</span>
+            <!--<span class="year">0000</span>-->
         </div>
     </div>
 
@@ -102,7 +102,23 @@
         document.querySelector(".month-name").innerHTML = monthName;
         document.querySelector(".day-name").innerHTML = dayName;
         document.querySelector(".day-number").innerHTML = dayNumber;
-        document.querySelector(".year").innerHTML = year;
+        //document.querySelector(".year").innerHTML = year;
+
+        //Javascript for dot menu toggle
+        const dotmenuBtn = doucument.querySelector(".dot-menu-btn");
+        const dotMenu = documet.querySelector(".dot-menu");
+
+        dotmenuBtn.addEventListener("click", () => {
+            dotMenu.classList.toggle("active");
+        });
+
+        dotmenuBtn.addEventListener("click", (e) => {
+            if(e.target.id !== "active-menu"){
+                dotMenu.classList.remove("active");
+            }
+        });
+
+        
     </script>
 </body>
 </html>
