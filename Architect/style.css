@@ -845,7 +845,7 @@ img {
     }
 }
 
-@media(max-width: 1300px) {
+@media(max-width: 1100px) {
     .team {
         padding-bottom: 5rem;
     }
