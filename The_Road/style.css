@@ -1,3 +1,5 @@
+/* Common Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -30,7 +32,12 @@ html {
     background-color: var(--secondary-color);
     margin: 3.5rem;
     box-shadow: 0 1rem 3rem var(--grey-color);
+    overflow: hidden;
 }
+
+/* End of Common Styles */
+
+/* Header */
 
 .header {
     width: 100%;
@@ -134,7 +141,7 @@ html {
 
 .header-image {
     width: 35%;
-    animation: image-float 5s infinite;
+    animation: image-float 150s infinite;
 }
 
 @keyframes image-float {
@@ -163,4 +170,8 @@ html {
     }
     
 }
+/* End of Header */
+
+/* Popular tours */
+/* End of Popular tours */
 
