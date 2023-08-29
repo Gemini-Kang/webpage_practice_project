@@ -40,7 +40,7 @@ video.addEventListener('timeupdate', () => {
 })
 
 //section3 pricing Cards
-var swiper = new Swiper(".swiper-container", {
+var swiper = new Swiper('.swiper-container', {
     effect: 'coverflow',
     grabCursor: true,
     centeredSlides: true,
@@ -51,6 +51,6 @@ var swiper = new Swiper(".swiper-container", {
       depth: 100,
       modifier: 1,
       slideShadows: true,
-    },
+    }
   });
 //End of section3 pricing Cards
