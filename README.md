@@ -1,4 +1,4 @@
-<img width="1277" alt="截屏2023-06-26 23 20 57" src="https://github.com/Gemini-Kang/webpage_practice_project/assets/116182550/ee234d51-4e36-4019-b465-666c29bacb5c"># My Practice Project Plan
+# My Practice Project Plan
 My HTML, CSS, JavaScript practice
 
 | Project / Web page | ScreenShot | Demo Link | Is it support mobile? |
