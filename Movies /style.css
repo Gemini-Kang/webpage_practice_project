@@ -216,3 +216,18 @@ header {
   font-size: 1rem;
   font-weight: 400;
 }
+
+/* Heading */
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--container-color);
+  padding: 8px 14px;
+  border: 1px solid hsl(200 100% 99% / 5%);
+}
+
+.heading-title {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
