@@ -425,3 +425,56 @@ header {
     box-shadow: 0 0 0  rgb(255, 193, 7, 0);
   }
 }
+
+/* Video-container */
+.video-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background: hsl(234 10% 20% / 60%);
+  z-index: 400;
+}
+
+.video-container.show-video {
+  display: flex;
+}
+
+.video-box {
+  position: relative;
+  width: 82%;
+}
+
+.video-box #myvideo {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+
+.close-video {
+  position: absolute;
+  top: -3rem;
+  right: 0;
+  font-size: 40px;
+  color: var(--main-color);
+}
+
+/* About Movie */
+.about-movie {
+  margin-top: 2rem;
+}
+
+.about-movie h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--main-color);
+}
+
+.about-movie p {
+  max-width: 600px;
+  font-size: 0.938rem;
+  margin: 10px 0;
+}
