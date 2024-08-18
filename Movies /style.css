@@ -19,6 +19,16 @@
   --text-color: #fcfeff;
 }
 
+/* Custom Scroll Bar */
+html::-webkit-scrollbar {
+  width: 0.5rem;
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: var(--main-color);
+}
+
 /* Selection Color */
 ::selection {
   background: var(--main-color);
