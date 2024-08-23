@@ -137,10 +137,10 @@ header {
   transform: rotate(-45deg) translate(-5px, 5px);
 }
 
-.move .line1 {
+.move .line2 {
   opacity: 0;
 }
 
-.move .line1 {
+.move .line3 {
   transform: rotate(45deg) translate(-5px, -5px);
 }
