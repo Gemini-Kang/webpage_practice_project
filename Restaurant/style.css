@@ -27,6 +27,16 @@ body {
   background: var(--bg-color);
 }
 
+/* Custom Scorll Bar */
+html::-webkit-scrollbar {
+  width: 0.5rem;
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: var(--red);
+}
+
 a {
   text-decoration: none;
 }
@@ -634,3 +644,4 @@ header {
   color: var(--bg-color);
   text-align: center;
 }
+
