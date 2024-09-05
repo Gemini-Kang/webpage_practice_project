@@ -780,3 +780,64 @@ header {
   }
 }
 
+@media (max-width: 670px) {
+  .home-text h1 {
+    font-size: 2.7rem;
+    line-height: 3.2rem;
+  }
+
+  .features {
+    justify-content: center;
+  }
+
+  .item-content {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .footer-content {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 390px) {
+  .navbar {
+    width: 100%;
+  }
+
+  .feature-menu-content {
+    justify-content: center;
+  }
+
+  .menu-box h2 {
+    text-align: center;
+  }
+
+  .m-item-right {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .m-item-box {
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .m-item-des {
+    padding: 0;
+  }
+
+  .m-item-des p {
+    line-height: 1.1rem;
+  }
+
+  .m-item-price {
+    padding-left: 0;
+    border-left: none;
+    margin-top: 7px;
+  }
+
+  .m-item-price p {
+    margin-top: 4px;
+  }
+}
