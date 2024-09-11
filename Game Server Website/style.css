@@ -6,4 +6,117 @@
   scroll-behavior: smooth;
   scroll-padding-top: 2rem;
   box-sizing: border-box;
+  font-family: var(--poppins-font-family);
+}
+
+/* Vaiables */
+:root {
+  /* Fonts Families */
+  --poppins-font-family: "Poppins", sans-serif;
+  /* Colors */
+  --body-color: #171b44;
+  --body-alter-color: #4454ff;
+  --main-color: #ff4d55;
+  --hover-color: #f8646c;
+  --container-color: #1d2352;
+  --text-alter-color: #0bd2d4;
+  --text-color: #fbfeff;
+}
+
+/* Basic Styles */
+::selection {
+  background: var(--main-color);
+  color: var(--text-color);
+}
+
+section {
+  padding: 4rem 0 3rem;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  color: var(--text-color);
+  background: var(--body-color);
+}
+
+/* Header */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgb(29 35 82 / 90%);
+  z-index: 200;
+}
+
+.nav {
+  max-width: 1200px;
+  margin: auto;
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: var(--text-color);
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.logo span {
+  color: var(--main-color);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  column-gap: 1.2rem;
+}
+
+.nav-link {
+  position: relative;
+  font-size: 1rem;
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0%;
+  height: 3px;
+  background: var(--main-color);
+}
+
+.nav-link:hover::after {
+  width: 100%;
+  transition: 0.4s all linear;
+}
+
+.login-btn {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 2px;
+  background: var(--main-color);
+  color: var(--text-color);
 }
