@@ -269,7 +269,8 @@ header {
   text-transform: uppercase;
 }
 
-.slide-title::after {
+.slide-title::after,
+.faq-title::after {
   content: '';
   position: absolute;
   top: -8px;
@@ -420,4 +421,88 @@ header {
   font-weight: 500;
   margin-top: 0.5rem;
   color: var(--main-color);
+}
+
+.faq {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+}
+
+.faq-text {
+  flex: 1 1 17rem;
+}
+
+.faq-img {
+  flex: 1 1 17rem;
+}
+
+.faq-title {
+  position: relative;
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.faq-text p {
+  font-size: 0.938rem;
+  text-align: justify;
+  margin: 0.5rem 0 1.5rem;
+}
+
+.faq-accordion {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+}
+
+.accordion-text {
+  flex: 1 1 17rem;
+}
+
+.accordion-container {
+  flex: 1 1 17rem;
+}
+
+.accordion-text h2 {
+  position: relative;
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.accordion-text p {
+  margin: 0.5rem 0 1.5rem;
+}
+
+.accordion-container {
+  display: grid;
+  gap: 1rem;
+}
+
+.accordion-item {
+  border-radius: 0.25rem;
+  background: var(--container-color);
+  padding: 10px;
+}
+
+.accordion-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.accordion-title {
+  font-size: 1rem;
+  font-weight: 400;
+  transition: 0.3s all;
+}
+
+.accordion-icon {
+  font-size: 1.3rem;
+  color: var(--text-color);
+  transition: 0.3s;
 }
