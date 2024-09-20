@@ -506,3 +506,25 @@ header {
   color: var(--text-color);
   transition: 0.3s;
 }
+
+.accordion-content {
+  border-radius: 0.25rem;
+  background: var(--body-color);
+  border-left: 4px solid var(--main-color);
+  height: 0;
+  overflow: hidden;
+  transition: all 0.35s ease;
+}
+
+.accordion-answer {
+  font-size: 0.87rem;
+  padding: 10px;
+}
+
+.accordion-open .accordion-icon {
+  transform: rotate(45deg);
+}
+
+.accordion-open .accordion-title {
+  font-weight: 600;
+}
