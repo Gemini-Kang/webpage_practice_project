@@ -528,3 +528,57 @@ header {
 .accordion-open .accordion-title {
   font-weight: 600;
 }
+
+/* Control*/
+.control {
+  background: var(--container-color);
+}
+
+.control-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+  background: var(--container-color);
+}
+
+.control-text {
+  flex: 1 1 17rem;
+}
+
+.control-title {
+  position: relative;
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.control-text p {
+  font-size: 0.938rem;
+  margin: 0.5rem 0 0.8rem;
+}
+
+.control-text .bx {
+  color: var(--main-color);
+}
+
+.spec-box {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.spec-box span {
+  font-size: 0.938rem;
+}
+
+.control-images {
+  flex: 1 1 17rem;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 24px !important;
+  font-weight: 600;
+  color: var(--text-color);
+}
