@@ -661,3 +661,45 @@ header {
 .payment .bx {
   font-size: 25px;
 }
+
+/* Prices */
+.prices {
+  width: 100%;
+  height: auto;
+  display: grid;
+  place-items: center;
+  background-image: linear-gradient(
+    rgb(23, 27, 68, 87%) 100%,
+    rgb(23, 27, 68, 87%) 100%
+  ),url(img/prices-home.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.prices-text {
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.prices-subtitle {
+  font-size: 1.2rem;
+  color: var(--text-color);
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.prices-title {
+  font-size: 3.5rem;
+  color: var(--text-color);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.prices-description {
+  font-size: 1rem;
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 1.5rem;
+}
