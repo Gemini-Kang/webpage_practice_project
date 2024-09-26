@@ -7,10 +7,12 @@ loginBtn.onclick = () => {
 };
 
 // Menu Open Close
-let menu = document.querySelector('.menu-icon')
+let menu = document.querySelector('.menu-icon');
+let navbar = document.querySelector('.navbar');
 
 menu.onclick = () => {
-  menu.classList.toggle("move");
+  menu.classList.toggle('move');
+  navbar.classList.toggle('open-menu');
 };
 
 //Header Background Change
