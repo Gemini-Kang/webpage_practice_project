@@ -814,7 +814,7 @@ header.shadow {
     padding: 14px 0;
   }
   section {
-    padding: 3rem 0 2rem;
+    padding: 3rem 0 2rem !important;
   }
   .home-slide {
     min-height: 560px;
@@ -855,7 +855,7 @@ header.shadow {
     padding: 25px;
   }
 
-  .navbar .open-menu {
+  .navbar.open-menu {
     right: 0;
     transition: 0.5s;
   }
