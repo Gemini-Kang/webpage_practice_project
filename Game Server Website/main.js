@@ -15,6 +15,13 @@ menu.onclick = () => {
   navbar.classList.toggle('open-menu');
 };
 
+// On Scroll Remove Menu
+window.onscroll = () => {
+  menu.classList.remove('move');
+  navbar.classList.remove('open-menu');
+  dropLogin.classList.remove('drop-login-open');
+}
+
 //Header Background Change
 let header = document.querySelector('header');
 
