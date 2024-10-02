@@ -14,3 +14,5 @@ My HTML, CSS, JavaScript practice
 | Apple_Commerce|<img width="1277" alt="截屏2023-06-26 23 20 57" src="https://github.com/Gemini-Kang/webpage_practice_project/assets/116182550/8eb58509-ac73-4518-8c6a-8a358fa07197">| https://64999e5e15783608dcfe9a5a--lustrous-zuccutto-290cd7.netlify.app/ | Yes |
 | Classic Cars |<img width="1247" alt="截屏2023-09-27 10 43 39" src="https://github.com/Gemini-Kang/webpage_practice_project/assets/116182550/7f0a7d00-198a-4136-991e-fb5151283493">| https://6513875958bf703b6c67ae0d--nimble-faun-d5c169.netlify.app/ | Yes |
 | Restaurant |<img width="1277" alt="截屏2024-09-09 23 40 57" src="https://github.com/user-attachments/assets/48c6890a-4668-4340-9446-5b3515fe8fb8"> |https://66df092b21bc32183a227d21--reliable-cupcake-c1cdf1.netlify.app/ | Yes |
+| Game Server | <img width="1271" alt="截屏2024-10-02 23 45 16" src="https://github.com/user-attachments/assets/d55efddf-763d-46b0-a355-9cf2a74ddd3c">
+| https://celebrated-lamington-d45a9a.netlify.app/ | Yes |
